@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+
+box-sizing: border-box;
+}
+.clearfix:after{
+content:"";
+display:table;
+clear: both;
+}
+body{
+    color: #373a3c;
+}
+.container{
+    width: 100%;
+    height: 100%;
+
+}
+/* ===== sidebar stylig start ===== */
+.sidebar{
+    background: #00659B;
+    height: 100vh;
+    width: 30%;
+    float: left;
+    color: white;
+    text-align: center;
+    position: fixed;
+}
+.sidebar-header{
+    margin: 35px 0px;
+    
+}
+.sidebar-header h1 {
+    margin-top: 6px;
+    font-weight: 400;
+    font-size: 38px;
+    text-transform: capitalize;
+    
+
+}
+.sidebar-body-list{
+    list-style-type: none;
+}
+.sidebar-body-list li {
+    margin: 40px;
+
+}
+.sidebar-body-list li a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+.sidebar-body-list li a:hover{
+    color: #f4ef5e;
+}
+/* ===== sidebar styling end */
+/* ===== content headr styling start */
+.content{
+    margin-left: 30%;
+}
+.content .content-header >img{
+    width: 100%;
+}
+/* ===== content welcome styling start*/
+.content-welcome{
+    margin: 50px 50px 80px;
+}
+.content-welcome h2{
+    font-weight: 400;
+    color: #00659B;
+    font-size: 3rem;
+    margin-bottom: 40px;
+}
+.content-welcome p{
+    line-height: 2;
+    font-weight: 300;
+    font-size: 22px;
+
+}
+/* ===== content welcome styling end =====*/
+
+/* ===== content-about styling start =====*/
+.content-about{
+    margin: 50px 50px 80px
+
+}
+.content-about-image{
+    float: left;
+    margin-right:50px;
+    width: 250PX;
+}
+.content-about-image>img{
+    width: 100%;
+}
+.content-about-info h3{
+    font-weight: 400;
+        color: #00659B;
+        font-size: 2rem;
+        margin-bottom: 40px;
+    }
+    .content-about-info p{
+        line-height: 2;
+        font-weight: 300;
+        font-size: 20px;
+margin-bottom:20px ;    
+    }
+    .pra{
+        margin-left: 300px;
+    }
+.content-about-info a{
+margin-left: 300px;
+text-decoration: none;
+background: #00659B;
+color: #fff;
+font-size: 20px;
+padding: 20PX 60px;
+font-weight: 300;
+display: inline-block;
+}
+.content-about-info a:hover{
+    background-color: #2790c6;
+}
+
+/* ===== content-about styling end =====*/
+/* ===== content gllery one styling end =====*/
+.first-gallery{
+margin: 50px 50px 80px
+}
+.first-gallery h3{
+font-weight: 400;
+    color: #00659B;
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+.first-gallery .first-gallery-column{
+float: left;
+width: 20%;
+padding: 8PX;
+}
+.first-gallery .first-gallery-column img {
+    width: 100%;
+}
+/* =====content first-gallery section end ===== */
+
+/* ===== content Second Gallery section start =====*/
+.Second-Gallery{
+    margin: 50px 50px 80px
+}
+.Second-Gallery h3{
+    font-weight: 400;
+        color: #00659B;
+        font-size: 2rem;
+        margin-bottom: 40px;
+
+}
+.Second-Gallery .Second-Gallery-colmun{
+float: left;
+    width: 33.33%;
+    padding: 8PX;
+}
+.Second-Gallery .Second-Gallery-colmun img{
+width: 100%;
+}
+/* ===== content Second Gallery section end =====*/
+
+/*===== content Third Gallery section start =====*/
+.Third-Gallery{
+margin: 50px 50px 80px
+}
+.Third-Gallery h3 {
+font-weight: 400;
+    color: #00659B;
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+.Third-Gallery .content-Third-Gallery{
+    float: left;
+        width: 25%;
+        padding: 8PX;
+
+}
+.content-Third-Gallery img{
+    width: 100%;
+
+}
+
+/* content contact-us section start  */
+.content-contact{
+    margin: 50px 50px 80px
+}
+.content-contact h3{
+    font-weight: 400;
+        color: #00659B;
+        font-size: 2rem;
+        margin-bottom: 40px;
+}
+.contact-form{
+    float:left;
+    width: 50%;
+    margin-right: 30px;
+}
+.contact-form .form-group{
+    margin-bottom: 12px;
+}
+.contact-form input{
+    height: 45px;
+}
+.contact-form input,
+.contact-form textarea{
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #0a6697;
+    outline: none;
+    font-size: 24px;
+    font-weight: 300;
+
+}
+.contact-form input::placeholder,
+.contact-form textarea::placeholder{
+    color: #55595c;
+}
+.contact-form input:focus,
+.contact-form textarea:focus{
+    border-color: #66afe9;
+
+}
+
+.contact-form button{
+    color: white;
+    background: #006599;
+    border: 0;
+    padding: 18px 35px;
+    font-size: 25px;
+    font-weight: 300;
+}
+.contact-form button:hover{
+    background: #2790c6;
+    cursor: pointer;
+}
+ 
+
+/* content content info section start  */
+.content-info p{
+    margin-bottom: 14px;
+}
+.content-info p,
+.content-info address{
+line-height: 2;
+    font-weight: 300;
+    font-size: 20px;
+}
+/* content footer section start */
+.content-footer{
+margin: 50px 50px 40px
+}
+.content-footer p{
+font-weight: 300;
+    font-size: 20px;
+}
+.content-footer p a{
+        text-decoration: none;
+        color:#0275d8 ;
+}
+.content-footer p a:hover{
+color: #014c8c;
+}
+
